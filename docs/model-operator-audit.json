@@ -1,0 +1,42 @@
+{
+  "model": "app/src/main/assets/models/moce_ir_s_aio5.onnx",
+  "sha256": "7e57d7504d81928131be1f7d225d2342f4f0591b646f65eed81029b3a207a37e",
+  "total_nodes": 5351,
+  "operators": {
+    "ai.onnx:Add": 439,
+    "ai.onnx:Clip": 96,
+    "ai.onnx:Concat": 53,
+    "ai.onnx:Conv": 640,
+    "ai.onnx:DFT": 240,
+    "ai.onnx:DepthToSpace": 3,
+    "ai.onnx:Div": 252,
+    "ai.onnx:Erf": 40,
+    "ai.onnx:Expand": 106,
+    "ai.onnx:GatherElements": 20,
+    "ai.onnx:Gemm": 22,
+    "ai.onnx:MatMul": 96,
+    "ai.onnx:Mul": 688,
+    "ai.onnx:Pad": 80,
+    "ai.onnx:ReduceL2": 96,
+    "ai.onnx:ReduceMean": 359,
+    "ai.onnx:ReduceSum": 10,
+    "ai.onnx:Reshape": 676,
+    "ai.onnx:ScatterElements": 10,
+    "ai.onnx:Sigmoid": 40,
+    "ai.onnx:Slice": 200,
+    "ai.onnx:Softmax": 58,
+    "ai.onnx:Split": 126,
+    "ai.onnx:Sqrt": 116,
+    "ai.onnx:Squeeze": 40,
+    "ai.onnx:Sub": 272,
+    "ai.onnx:TopK": 10,
+    "ai.onnx:Transpose": 403,
+    "ai.onnx:Unsqueeze": 160
+  },
+  "dft_attributes": {
+    "{\"axis\": 5, \"inverse\": 0, \"onesided\": 1}": 80,
+    "{\"axis\": 4, \"inverse\": 0, \"onesided\": 0}": 80,
+    "{\"axis\": 4, \"inverse\": 1, \"onesided\": 0}": 40,
+    "{\"axis\": 5, \"inverse\": 1, \"onesided\": 1}": 40
+  }
+}
