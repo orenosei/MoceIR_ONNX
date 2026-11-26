@@ -70,7 +70,7 @@ fun RestoreScreen(viewModel: RestoreViewModel) {
                 )
             }
             item {
-                RuntimePanel(runtime)
+                RuntimeStatusPanel(runtime)
             }
             item {
                 OutlinedButton(

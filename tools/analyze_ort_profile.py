@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarize executed kernels from ORT JSON; this cannot identify GPU vs NPU devices."""
+"""Summarize executed ORT kernel events by provider and operator."""
 import argparse
 from collections import Counter, defaultdict
 import json
@@ -20,8 +20,7 @@ def summarize(path):
         counts[provider] += 1
         operations[provider][args.get('op_name', '?')] += 1
     return {'profile': path.name, 'kernel_events': dict(counts),
-            'operations': {provider: dict(ops) for provider, ops in operations.items()},
-            'gpu_or_npu_device': 'not established by ORT provider events'}
+            'operations': {provider: dict(ops) for provider, ops in operations.items()}}
 
 
 if __name__ == '__main__':
