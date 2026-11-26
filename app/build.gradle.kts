@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "vn.edu.hust.moceir"
-        minSdk = 28
+        minSdk = 29
         targetSdk = 35
         versionCode = 3
         versionName = "1.2"

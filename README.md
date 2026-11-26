@@ -24,7 +24,7 @@ Windows dùng `gradlew.bat`. APK debug: `app/build/outputs/apk/debug/app-debug.a
 | Kotlin / Compose compiler | 2.2.20 |
 | Compose BOM | 2025.04.01 |
 | ONNX Runtime Android | 1.27.0 |
-| compileSdk / targetSdk / minSdk | 35 / 35 / 28 |
+| compileSdk / targetSdk / minSdk | 35 / 35 / 29 (Android 10+) |
 | Java/Kotlin target | 17 |
 | ABI | arm64-v8a, x86_64 |
 
